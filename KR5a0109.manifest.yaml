@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5a0109/v1
+canonical_location: https://kanripo.org/bkk/KR5a0109/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 黃帝陰符經集註
+  identifiers:
+    alt_id:
+    - DZ0108
+  date: '2015-08-28 23:37:42.546223'
+  source:
+    repository: kanripo
+    path: KR5a0109
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0109_000.yaml, hash: 'sha256:7fd5fdeaf51b0f17142d1f6e8e941b3df2925bafe65a8f1800be93622047eacc'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0109_000.markers.yaml, hash: 'sha256:d2ad1a6bd65ab022bcfd32605ab6b9283ac935609d7fd679267d29bbf3121094'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0109_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3727
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:76f0bcfdb837743d3ce68bad729de3d0e81e2d537aa6a13cdea98051e07e665d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
